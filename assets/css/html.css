@@ -1,0 +1,259 @@
+@font-face {
+    font-family: riot-games;
+    font-weight: 50;
+    src: url(../Fonts_Package/Fonts_Package/Spiegel-OTF/Spiegel-Regular.otf) format(truetype);
+  }
+  
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: riot-games;
+    background-color: white;
+}
+  
+header {
+    background-color: #FFB999;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 100%;
+}
+
+#logo-code {
+    width: 150px;
+    margin-left: 25px;
+}
+  
+.mainDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainNav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.mainNav a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.mainNav a:hover {
+    background-color: orangered;
+    color: black;
+    border: 1px solid orangered;
+    border-radius: 30px;
+    padding: 3px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.div-container {
+    display: flex;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.div-container a {
+    text-decoration: none;
+    color: black;
+}
+
+#img-container {
+    margin-right: 150px;
+    width: 350px;
+}
+
+#second-img-container img {
+    width: 700px;
+    margin-right: 130px;
+    margin-top: 50px;
+}
+
+.second-div-container {
+    font-size: 25px;
+    display: flex;
+}
+
+.thirdDiv {
+    background-color: #FFB999;
+    color: black;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.thirdDiv p {
+    font-size: 25px;
+}
+
+.lego {
+    display: flex;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.lego img {
+    width: 500px;
+    margin-left: 30px;
+    margin-right: 100px;
+    border: 1px solid white;
+    border-radius: 30%;
+    background-color: white;
+    box-shadow: 0 0 10px orangered;
+}
+
+.exemples {
+    margin-bottom: 50px;
+}
+
+.exemples p {
+    font-size: 25px;
+}
+
+.img-code {
+    display: flex;
+    justify-content: space-around;
+}
+
+#img-results {
+    width: 500px;
+}
+
+h3 {
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+#conclusion {
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #303030;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    align-items: center;
+}
+
+#mainfooter img {
+    width: 150px;
+}
+
+#thirdFooter img {
+    width: 30px;
+    margin: 25px;
+}
+
+#fourthFooter {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+@media (max-width: 768px){
+    header {
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-size: auto;
+    }
+
+    body {
+        width: 100%;
+        margin: auto;
+    }
+
+    .mainDiv {
+        flex-direction: column;
+    }
+
+    #logo-code {
+        width: 100px;
+        margin: 0;
+    }
+
+    .mainNav ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h2 {
+        text-align: center;
+        margin: 0;
+    }
+
+    #img-container {
+        width: 400px;
+        margin: 0;
+    }
+
+    .div-container {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    #second-img-container img {
+        margin: 0;
+        width: 300px;
+    }
+
+    .second-div-container {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .lego img {
+        margin: 0;
+        width: 50%;
+    }
+
+    .lego {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img-code {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    #img-results {
+        width: 100%;
+    }
+
+    #conclusion {
+        margin: 0;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+    }
+
+}
