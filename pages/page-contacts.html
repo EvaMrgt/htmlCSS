@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">7
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <script src="../assets/javascript/contact.js"></script>
+    <title>CONTACTS</title>
+</head>
+
+<body>
+    <header>
+        <div class="mainDiv">
+            <div>
+                <img id="logo-code" src="../assets/images/code.png" alt="code">
+            </div>
+            <div>
+                <nav class="mainNav">
+                    <ul>
+                        <li>
+                            <a href="../222.html">ACCUEIL</a>
+                        </li>
+                        <li>
+                            <a href="../pages/page-html.html">HTML</a>
+                        </li>
+                        <li>
+                            <a href="../pages/page-css.html">CSS</a>
+                        </li>
+                        <li>
+                            <a href="../pages/page-js.html">JAVASCRIPT</a>
+                        </li>
+                        <li>
+                            <a href="../pages/page-php.html">PHP</a>
+                        </li>
+                        <li>
+                            <a href="../pages/page-contacts.html">CONTACTS</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="div-container">
+            <div class="first-div">
+                <section>
+                    <h1>Nous Contacter</h1>
+                </section>
+            </div>
+            <div class="second-div">
+                <article>
+                    <h2>Des questions ?</h2>
+                    <form id="contactForm">
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom" placeholder="Votre nom">
+                        <div  class="error-message">
+                            <p id="nameError"></p>
+                        </div>
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" id="prenom" name="prenom" placeholder="Votre prénom">
+                        <div  class="error-message">
+                            <p id="firstnameError"></p>
+                        </div>
+                        <label for="message">Message :</label>
+                        <textarea id="message" name="message" placeholder="Votre message"></textarea>
+                            <div class="error-message">
+                                <p id="messageError"></p>
+                            </div>
+                        <button onclick="validerFormulaire()" type="button" > Envoyer</button>
+                    </form>
+                </article>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="mainfooter">
+            <img src="../assets/images/code.png" alt="code">
+        </div>
+        <div id="secondFooter">
+            <p>Copyrights - 2024 - Tous droits réservés.</p>
+        </div>
+        <div id="thirdFooter">
+            <img src="../assets/images/youtube.png" alt="yt">
+            <img src="../assets/images/facebook.png" alt="fb">
+            <img src="../assets/images/linkedin.png" alt="lkd">
+            <img src="../assets/images/instagram.png" alt="insta">
+        </div>
+        <div id="fourthFooter">
+            <p>FAQ</p>
+            <p>Contacts</p>
+            <p>Mentions légales</p>
+        </div>
+    </footer>
+</body>
+
+</html>

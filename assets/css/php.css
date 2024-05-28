@@ -10,7 +10,7 @@ body {
 }
   
 header {
-    background-image: url(../images/jss-backg.png);
+    background-color: #9966cc;
     justify-content: space-around;
     align-items: center;
     border: 1px solid white;
@@ -42,9 +42,9 @@ header {
 }
 
 .mainNav a:hover {
-    background-color: cyan;
+    background-color: white;
     color: black;
-    border: 1px solid cyan;
+    border: 1px solid purple;
     border-radius: 30px;
     padding: 10px;
 }
@@ -58,6 +58,11 @@ h1 {
 h2 {
     font-size: 50px;
     margin-left: 50px;
+}
+
+h3 {
+    font-size: 40px;
+    
 }
 
 .div-container {
@@ -88,25 +93,25 @@ h2 {
 }
 
 .thirdDiv {
-    background-color: #50C878;
+    background-color: #9966cc;
     color: black;
     border: 1px solid white;
     border-radius: 30px;
-    box-shadow:   inset 0 0 1em #006400,
-    0 0 2em green;;
+    box-shadow:   inset 0 0 1em purple,
+    0 0 2em blueviolet;;
 }
 
 .thirdDiv p {
     font-size: 25px;
 }
 
-.css {
+.php {
     display: flex;
     margin-right: 10px;
     font-size: 25px;
 }
 
-.css img {
+.php img {
     width: 500px;
     margin-left: 30px;
     margin-right: 100px;
@@ -114,6 +119,25 @@ h2 {
     border-radius: 50%;
     background-color: white;
     box-shadow: 0 0 10px cyan;
+}
+
+.fourthDiv p {
+    margin-left: 40px;
+}
+
+.secondArticle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondArticle img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.fourthDiv img {
+    width: 100%;
 }
 
 .mainArticle {
@@ -127,30 +151,6 @@ h2 {
     box-shadow: 0 0 10px cyan;
 }
 
-.exemples {
-    margin-bottom: 50px;
-}
-
-.exemples p {
-    font-size: 25px;
-    margin-left: 50px;
-}
-
-.img-code {
-    display: flex;
-    justify-content: space-around;
-}
-
-.img-code :first-child {
-    width: 1000px;
-    height: 300px;
-    width: 45%;
-}
-
-.clic {
-    width: 25%;
-}
-
 h3 {
     font-size: 35px;
     margin-left: 50px;
@@ -161,6 +161,7 @@ h3 {
     color: black;
     width: 100%;
     padding-top: 20px;
+    display: flex;
 }
 
 footer {
@@ -223,6 +224,10 @@ footer {
         margin: 0;
     }
 
+    h3 {
+        margin-left: 0;
+    }
+
     #img-container {
         width: 400px;
         margin: 0;
@@ -243,12 +248,12 @@ footer {
         flex-direction: column;
     }
 
-    .css img {
+    .php img {
         margin: 0;
         width: 50%;
     }
 
-    .css {
+    .php {
         flex-direction: column;
         text-align: center;
     }
@@ -260,6 +265,22 @@ footer {
     }
 
     .img-code :first-child {
+        width: 100%;
+    }
+
+    .secondArticle {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #conclusion {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #conclusion img {
         width: 100%;
     }
 
